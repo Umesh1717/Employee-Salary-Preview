@@ -34,6 +34,7 @@ const App = () => {
   }
   return (
     <div className="App">
+     <div class="watermark">Preview</div>
       <h2>Employee Salary Preview</h2>
       <div>
         <input type="file" name="" id="" onChange={handleFileUpload} />
