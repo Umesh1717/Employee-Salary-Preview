@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.employee-table{
+  width: 75%;
+  margin: 2rem auto;
+}
+input {
+  margin-top: 1rem;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.proceed{
+  border: unset;
+  padding: 10px 2rem;
+  border-radius: 10px;
+  color: white;
+  background: #008000f0;
+  cursor: pointer;
+}
+h4 b{
+  font-size: 20px;
+}
+@media screen and (max-width:760px) {
+  table{
+    font-size: 10px;
+  }
+  .App{
+    padding: 2rem 0;
+  }
+}
